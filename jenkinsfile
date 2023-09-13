@@ -12,7 +12,7 @@ pipeline {
                 script
                 {
                     //sh 'kill -9 `ps aux |grep petclinic | grep jar | awk {\'print $2\'}`'
-                    git branch: 'main', url: 'https://github.com/brahimhamdi/petclinic'
+                    git branch: 'main', url: 'https://github.com/salah06/petclinic'
                 }    
             }
         }
